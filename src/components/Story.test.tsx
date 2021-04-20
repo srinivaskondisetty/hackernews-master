@@ -1,7 +1,7 @@
 import * as React from "react";
 import { shallow } from "enzyme";
-import Story from "./Story";
-import { Story as StoryModel } from "../models/Story";
+import Story from "./story";
+import { Story as StoryModel } from "../models/story";
 
 const storyModel: StoryModel = {
   by: "st3fan",

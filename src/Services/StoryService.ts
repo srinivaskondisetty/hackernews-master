@@ -1,4 +1,4 @@
-import { Story } from "../models/Story";
+import { Story } from "../models/story";
 
 export default class StoryService {
 

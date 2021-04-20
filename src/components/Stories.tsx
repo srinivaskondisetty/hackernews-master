@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import StoryService from '../services/storyservice'
-import Story from './Story';
+import StoryService from '../services/storyService'
+import Story from './story';
 
 interface IStoryListProps {
 }

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { shallow } from "enzyme";
-import Stories from "./Stories";
+import Stories from "./stories";
 
 describe("Stories Test Cases", () => {
   test("Checking atleast one element is loaded", () => {

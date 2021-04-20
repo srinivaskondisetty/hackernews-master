@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import CommentService from '../Services/CommentService';
-import { Comment } from '../models/Comment'
+import commentService from '../services/commentService';
+import { Comment } from '../models/comment'
 import moment from 'moment';
 
 interface ICommentsProps {
@@ -12,11 +12,11 @@ interface ICommentsState {
 }
 
 export default class Comments extends Component<ICommentsProps, ICommentsState> {
-    private commentService: CommentService;
+    private commentService: commentService;
 
     constructor(props: ICommentsProps) {
         super(props);
-        this.commentService = new CommentService();
+        this.commentService = new commentService();
         this.state = {
             comments: []
         }

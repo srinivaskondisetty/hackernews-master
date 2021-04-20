@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import StoryService from '../services/storyservice';
-import { Story as StoryModel } from "../models/Story";
+import StoryService from '../services/storyService';
+import { Story as StoryModel } from "../models/story";
 import moment from 'moment';
 import Comments from './Comments'
 
