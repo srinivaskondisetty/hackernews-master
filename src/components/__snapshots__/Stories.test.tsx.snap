@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxWithLabel changes the text after click 1`] = `
+<div
+  className="p-10 grid grid-cols gap-5 bg-blue-100"
+>
+  <h1
+    className="text-center font-black text-green-700"
+  >
+    Story Board
+  </h1>
+  <b>
+    Loading..
+  </b>
+</div>
+`;
+
+exports[`Stories Test Cases CheckboxWithLabel changes the text after click 1`] = `
+<div
+  className="p-10 grid grid-cols gap-5 bg-blue-100"
+>
+  <h1
+    className="text-center font-black text-green-700"
+  >
+    Story Board
+  </h1>
+  <b>
+    Loading..
+  </b>
+</div>
+`;
